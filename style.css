@@ -1,0 +1,413 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+  }
+  span{
+    font-size: 30px;
+    font-weight: 800;
+    
+  }
+  #get{
+    color: yellow;
+    font-weight: 800;
+  }
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 50px;
+    padding: 3px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 13px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  .cart-icon {
+    font-size: 24px;
+    margin-left: 30%;
+  }
+  
+  .signup-btn {
+    background-color: yellow;
+    color: #333;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 1%;
+    
+  }
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    .cart-icon {
+      display: none;
+    }
+  
+    .signup-btn {
+      margin-top: 10px;
+    }
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cart-button {
+    background-color: rgb(184, 47, 47);
+    border: none;
+    cursor: pointer;
+    margin-top: 2%;
+    font-size: 20px ;
+    /* margin-left:2%; */
+    padding-top: 15px;
+    padding-bottom:20px ;
+    padding-right: 100px;
+   
+    padding-left: 20px;
+  }
+  .search-button{
+    
+    cursor: pointer;
+    margin-top: 1%;
+    font-size: 20px ;
+    padding-top: 15px;
+    padding-bottom:20px ;
+    padding-bottom:20px ;
+    padding-right: 650px;
+    padding-left: 20px;
+  }
+
+  .cart-button i, .search-button i {
+    color: rgb(19, 17, 17);
+  }
+  #screen{
+    margin-left: 4%;
+
+  }
+  @media screen and (max-width: 768px) {
+    .button-container {
+      flex-direction: column;
+    }
+  }
+
+  .content {
+    flex: 1;
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  button {
+    padding: 10px 20px;
+    /* margin-right: 10px; */
+    /* background-color: #333; */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .my-section {
+      flex-direction: column;
+    }
+    
+    .image {
+      height: 300px;
+    }
+    
+    .content {
+      padding: 20px;
+    }
+    
+    h1 {
+      font-size: 24px;
+    }
+    
+    p {
+      font-size: 16px;
+    }
+    
+    button {
+      padding: 5px 10px;
+      font-size: 14px;
+    }
+  }
+  .mobile{
+    display: block;
+    justify-content:space-between;
+  }
+  
+  
+
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-div {
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.footer-div h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.footer-div p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.get {
+  color:yellow;
+}
+@media only screen and (max-width: 768px) {
+  .footer-div {
+    display: block;
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+}
+form{
+  display: flex;
+justify-content:space-evenly;
+background-color: rgb(212, 222, 222);
+width: 100%;
+padding-bottom: 100px;
+
+}
+input{
+  padding-left: 170px;
+  margin-top: 6%;
+ background-color: yellow;
+  
+}
+#call{
+
+ margin-top: 6%;
+}
+#sub{
+  margin-top: 6%;
+}
+.upper{
+  background-color: #E8BCF0;
+}
+
+.gadget1{
+  /* background-color: #E8BCF0; */
+  margin-left: 50%;
+  margin-right: 10%;
+  width: 80%;
+  height: 70vh;
+}
+#gadget2{
+  
+  
+  margin-left: 40%;
+}
+.trusted{
+  margin-top: -35%;
+  margin-left: 15%;
+  /* background-color: #E8BCF0; */
+}
+.trusted h1{
+  font-size:3em;
+  margin-top: 10%;
+}
+.trusted p{
+  font-size:1.2em;
+}
+.btn-explore{
+  margin-left: 20%;
+  margin-top: 5%;
+   
+}
+.ode{
+  background: yellow;
+   margin-top: -7%;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+.plore{
+ background-color: #E8BCF0;
+  border: solid white;
+  margin-top: -20%;
+  padding: 20px 30px;
+  border-color:white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  /* color:white */
+}
+.testimonials{
+    display: flex;
+    font-size: bold;
+    flex-direction: row;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding: 20px; */
+
+}
+.guy{
+    display: flex;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+#p{
+    text-align: center;
+}
+.text{
+ margin-left: -2%;
+}
+.post{
+  margin-left: 20%;
+  margin-top: -1%;
+}
+.sir{
+   border-radius: 30px;
+}
+#hr{
+  border: none;
+  margin-top: 3%;
+  border-radius: 4px;
+  height: 6px;
+  position: relative;
+  background-color: black;
+  width: 80%
+}
+#hr::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 20%;
+  height: 100%;
+  background-color: #fcc419;
+}
+#hr::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 80%;
+  width: 100%;
+  background-color: #333;
+}
+#qoute{
+  color: yellow;
+  font-size: 100px;
+  margin-top: -3%;
+
+}
+.name{
+    margin-top: -7%;
+    margin-left: 20%;
+}
+.icons{
+  margin-top: 4%;
+  color: whitesmoke;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.icons button{
+  padding: 20px;
+  font-size: 1.2rem;
+}
+.icons .ion{
+  font-size: 5em;
+}
+#gadgets{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: whitesmoke;
+
+}
+#card{
+  border: 3px;
+}
+.arrivals-img{
+  display: flex;
+  width: 30%;
+}
+.arrivals-img2 {
+  background: linear-gradient(rgba(0,0,0,0.5 ), #f783ac);
+  height: 300px;
+  margin: 0 40px;
+  margin-top: 5%;
+
+}
+.arrivals-img2 img{
+  /* width: 20%; */
+  margin-left: 50%;
+  margin-top: -25%;
+}
+.arrivals-img2 h1{
+  margin-left: 4%;
+  font-size: 36px;
+  margin-bottom: -2%;
+  line-height: 1.5;
+}
+.arrivals-img2 p {
+  margin-top: 4%;
+  font-size: 24px;
+  margin-left: 4%;
+  line-height: 1.5;
+}
